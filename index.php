@@ -88,16 +88,13 @@
 
     <div class="sidebar">
         <ul>
-            
-            
+
+
             <!--add widget from wordpress admin panel -->
-            <?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar() ) : else : ?>
-            
-            <?php endif; ?>
-            
-            ______________________ 
-            <br/>
-            ______________________ 
+            <?php if ( function_exists( 'dynamic_sidebar') && dynamic_sidebar() ) : else : ?>
+
+            <?php endif; ?> ______________________
+            <br/> ______________________
             <!--or add widget php -->
             <?php wp_list_pages(); ?>
 
@@ -141,7 +138,10 @@
     </div>
 
     <div id="footer">
-        <p>Копирайт &#169; <?php echo date('Y'); ?><?php bloginfo('name'); ?></p>
+        <p>Копирайт &#169;
+            <?php echo date( 'Y'); ?>
+            <?php bloginfo( 'name'); ?>
+        </p>
     </div>
 </body>
 
