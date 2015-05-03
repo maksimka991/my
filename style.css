@@ -1,0 +1,38 @@
+/*  
+Theme Name: qwert
+Theme URI: http://www.wp-config.ru/
+Description: wertyu
+Version: 1.0
+Author: wp-admin
+Author URI: http://www.wp-config.ru/
+*/
+
+#container {
+    float: left;
+    border: 2px solid blue;
+    padding: 100px;
+    
+    width: 800px;
+}
+
+.post {
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+ 
+.postmetadata {
+    border: 2px solid black;
+    padding: 10px;
+}
+ 
+
+.sidebar {
+  float: right;
+    width: 250px;
+}
+
+#footer {
+    width: 800px;
+    
+}
